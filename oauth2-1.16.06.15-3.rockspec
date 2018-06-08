@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "oauth2"
-version = "1.16.06.15-2"
+version = "1.16.06.15-3"
 -- LuaDist source
 source = {
-  tag = "1.16.06.15-2",
+  tag = "1.16.06.15-3",
   url = "git://github.com/LuaDist-testing/oauth2.git"
 }
 -- Original source
@@ -22,9 +22,9 @@ description = {
 }
 dependencies = {
 	"lua >= 5.2",
-	"net-url >= 0.9",
-	"luajson > 1.3.3",
-	"luasec > 0.6"
+	"net-url",
+	"luajson",
+	"luasec"
 }
 build = {
 	type = "builtin",
